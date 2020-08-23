@@ -1,0 +1,25 @@
+.qtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizTitle {
+  text-align: center;
+}
+.questionset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
