@@ -13,18 +13,40 @@
       <input type="text" placeholder="Quiz Name" id="title">
       <button class="btn" id="submitTitle">Submit</button>
     </div>
-      <div class="questions hidden">
+      <div class="questions ">
         <div class="questionset">
           <h1>Question 1</h1>
-        <input type="text" placeholder="Question" id="question0">
-        <input type="text" placeholder="Answer Choice 1" id="answerOne0">
-        <input type="text" placeholder="Answer Choice 2" id="answerTwo0">
+        <input type="text" placeholder="Question" class="question">
+        <span class="option">
+          <input type="checkbox" class="checkbox">
+          <input type="text" placeholder="Answer Choice 1" class="answerOne">
+        </span>
+        <span class="option">
+          <input type="checkbox" class="checkbox">
+          <input type="text" placeholder="Answer Choice 2" class="answerTwo">
+        </span>
       </div>
       </div>
       <div class="buttons hidden">
         <button class="btn" id="add">Add Another</button>
         <button type="button" class="btn" id="submitQuestions">Submit </button>
       </div>
+
+      <button class="btn" id="play">Play</button>
+      <div class="set hidden">
+      <div class="display">
+        <h1 id="question"></h1>
+        <span>
+          <input type="checkbox" class="choices">
+          <label for="" id="aOne"></label>
+        </span>
+        <span>
+          <input type="checkbox" class="choices">
+          <label for="" id="aTwo"></label>
+        </span>
+        <button class="btn" id="next">Next</button>
+      </div>
+    </div>
     
 
     <script src="main.js"></script>
